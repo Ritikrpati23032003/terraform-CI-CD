@@ -1,5 +1,6 @@
 module "vpc" {
-    source = "git::https://github.com/Ritikrpati23032003/Terraform.git//day-14-modules-diff-env/modules/ec2"
+      source = "git::https://github.com/Ritikrpati23032003/Terraform.git//day-14-modules-diff-env/modules/vpc"
+
     vpc_name= var.vpc_name
     vpc_cidr= var.vpc_cidr
     vpc_ig=var.vpc_ig
