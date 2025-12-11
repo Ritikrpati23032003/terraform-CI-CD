@@ -1,11 +1,55 @@
-variable "instance_type" {
+variable "vpc_name" {
     type = string
     default = ""
   
 }
 
-variable "tag" {
+variable "vpc_cidr" {
     type = string
-    default = "cicd-ec2"
+    default = ""
+  
+}
+
+variable "vpc_ig" {
+    type = string
+    default = ""
+  
+}
+
+variable "public_subnet1" {
+    type = string
+    default = ""
+  
+}
+variable "public_subnet2" {
+    type = string
+    default = ""
+  
+}
+
+variable "public_subnet1_cidr" {
+    default = ""
+    type = string
+  
+}
+variable "public_subnet2_cidr" {
+    default = ""
+    type = string
+  
+}
+
+variable "az1" {
+    default = ""
+    type = string
+  
+}
+variable "az2" {
+    default = ""
+    type = string
+  
+}
+variable "sg_tags" {
+    default = ""
+    type = string
   
 }

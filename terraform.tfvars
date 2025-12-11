@@ -1,1 +1,11 @@
-instance_type = "t2.medium"
+vpc_name = "module-cicd"
+vpc_cidr = "10.0.0.0/16"
+vpc_ig = "cicd-ig"
+public_subnet1 = "public-1"
+public_subnet2 = "public-2"
+public_subnet1_cidr = "10.0.1.0/24"
+public_subnet2_cidr = "10.0.2.0/24"
+az1 = "us-east-1a"
+az2 = "us-east-1b"
+
+sg_tags = "module-sg"
