@@ -33,7 +33,7 @@ module "sg" {
 
 module "ec2" {
    source = "git::https://github.com/Ritikrpati23032003/Terraform.git//day-14-modules-diff-env/modules/ec2"
-   subnet1= module.vpc.pubic_subnet_1.id
+   subnet1 = module.vpc.public_subnet_1.id
    ami= var.ami_id
    instance_type=var.instance_type
    key_pair=var.key_pair
