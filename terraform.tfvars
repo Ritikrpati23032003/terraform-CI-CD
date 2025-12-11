@@ -9,3 +9,8 @@ az1 = "us-east-1a"
 az2 = "us-east-1b"
 
 sg_tags = "module-sg"
+
+name = "COCD_EC2"
+instance_type = "t2.micro"
+ami_id = "ami-0cae6d6fe6048ca2c"
+key_pair = "server-01"
