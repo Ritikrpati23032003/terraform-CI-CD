@@ -4,10 +4,10 @@ module "vpc" {
     vpc_name= var.vpc_name
     vpc_cidr= var.vpc_cidr
     vpc_ig=var.vpc_ig
-    pubic_subnet_1_name=var.pubic_subnet_1_name
-    pubic_subnet_1_cidr=var.pubic_subnet_1_cidr
-    pubic_subnet_2_name=var.pubic_subnet_2_name
-    pubic_subnet_2_cidr=var.pubic_subnet_2_cidr
+    pubic_subnet_1_name=var.public_subnet1
+    pubic_subnet_1_cidr=var.public_subnet1_cidr
+    pubic_subnet_2_name=var.public_subnet2
+    pubic_subnet_2_cidr=var.public_subnet2_cidr
     az1=var.az1
     az2=var.az2
 }
